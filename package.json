@@ -1,0 +1,16 @@
+{
+  "name": "psna-secure-password-recovery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/recovery.js && node --check src/sessionVersion.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express-rate-limit": "^8.1.0",
+    "nodemailer": "^7.0.0",
+    "pg": "^8.16.0"
+  }
+}
